@@ -44,3 +44,10 @@ let g:disable_float_bg = 1
 
 set background=dark
 colorscheme rosepine
+
+"""""""""""
+" fzf.vim "
+"""""""""""
+nnoremap <leader>fp :GFiles<cr>
+nnoremap <leader>fa :Files<cr>
+nnoremap <leader>fg :Rg<cr>
