@@ -1,0 +1,62 @@
+* {
+  font-family: "Agave Nerd Font", "FiraCode Nerd Font", monospace;
+  font-size: 15px;
+  border: none;
+  border-radius: 8px;
+  padding: 2px 6px;
+  min-height: 0;
+}
+
+window#waybar {
+  background-color: #1e1e2e;
+  color: #cdd6f4;
+  border-bottom: 2px solid #313244;
+  background: transparent;
+}
+
+#workspaces,
+#clock,
+#battery,
+#battery.bat2,
+#cpu,
+#memory,
+#pulseaudio,
+#backlight,
+#network,
+#power-profiles-daemon,
+#tray {
+  background-color: #313244;
+  margin: 2px 4px;
+  padding: 2px 12px;
+  border-radius: 6px;
+}
+
+#workspaces button {
+  color: #cdd6f4;
+  margin: 2px 2px;
+  padding: 2px 4px;
+  background: transparent;
+  border-radius: 6px;
+}
+
+#workspaces button.active {
+  background: #89b4fa;
+  color: #1e1e2e;
+}
+
+#workspaces button:hover {
+  background: #585b70;
+}
+
+#clock { color: #fab387; }
+#battery.charging { color: #a6e3a1; }
+#battery.warning, #battery.critical { color: #f38ba8; }
+#cpu { color: #f9e2af; }
+#memory { color: #cba6f7; }
+#pulseaudio { color: #89b4fa; }
+#pulseaudio.muted { color: #f38ba8; }
+#backlight { color: #a6e3a1; }
+#network { color: #94e2d5; }
+#network.disconnected { color: #f38ba8; }
+#notification { color: #94e2d5; }
+#power-profiles-daemon { color: #f5c2e7; }
