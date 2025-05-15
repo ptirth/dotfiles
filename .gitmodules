@@ -1,3 +1,9 @@
 [submodule "vim/pack/rose-pine/start/rose-pine"]
 	path = vim/pack/rose-pine/start/rose-pine
 	url = git@github.com:rose-pine/vim.git
+[submodule "vim/pack/junegunn/start/fzf"]
+	path = vim/pack/junegunn/start/fzf
+	url = git@github.com:junegunn/fzf.git
+[submodule "vim/pack/junegunn/start/fzf.vim"]
+	path = vim/pack/junegunn/start/fzf.vim
+	url = git@github.com:junegunn/fzf.vim.git
