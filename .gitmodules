@@ -16,9 +16,6 @@
 [submodule "vim/pack/vim-autoformat/start/vim-autoformat"]
 	path = vim/pack/vim-autoformat/start/vim-autoformat
 	url = git@github.com:vim-autoformat/vim-autoformat.git
-[submodule "vim/pack/vim-airline/start/vim-airline"]
-	path = vim/pack/vim-airline/start/vim-airline
-	url = git@github.com:vim-airline/vim-airline.git
 [submodule "vim/pack/neoclide/start/coc.nvim"]
 	path = vim/pack/neoclide/start/coc.nvim
 	url = git@github.com:neoclide/coc.nvim.git
