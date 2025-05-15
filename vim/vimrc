@@ -15,3 +15,23 @@ set softtabstop=4
 set expandtab
 set smartindent
 set breakindent
+
+set ignorecase
+set smartcase
+set nohlsearch
+
+set signcolumn=yes
+set scrolloff=8
+set nowrap
+set mouse=a
+
+set timeoutlen=500
+set updatetime=750
+
+set undodir=~/.cache/vim/undo
+set undofile
+
+let mapleader = " "
+let maplocalleader = " "
+
+nnoremap <leader>e :Ex<cr>
