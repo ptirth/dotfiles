@@ -11,7 +11,7 @@ fi
 
 if [ -d "$conf_dest" ]; then
     echo "  - Removing existing config: $conf_dest"
-    rm -r "$conf_dest"
+    rm -rf "$conf_dest"
 fi
 
 echo "  - Copying new config: $conf_src"
