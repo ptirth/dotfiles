@@ -16,3 +16,5 @@ fi
 
 echo "  - Copying new config: $conf_src"
 cp -r "$conf_src" "$conf_dest"
+
+hyprctl reload
