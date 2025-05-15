@@ -51,3 +51,8 @@ colorscheme rosepine
 nnoremap <leader>fp :GFiles<cr>
 nnoremap <leader>fa :Files<cr>
 nnoremap <leader>fg :Rg<cr>
+
+"""""""""""""""
+" vim-airline "
+"""""""""""""""
+let g:airline_theme='gruvbox'
