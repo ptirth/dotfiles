@@ -1,5 +1,5 @@
-vim.cmd.syntax on
-vim.opt.encoding=utf-8
+vim.cmd.syntax("on")
+vim.opt.encoding = "utf-8"
 
 vim.opt.backup = false
 vim.opt.writebackup = false
